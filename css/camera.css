@@ -1,0 +1,83 @@
+.camera-container {
+  background: linear-gradient(to bottom, #e5e5ea, #8e8e92);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.camera-top-rect1 {
+  width: 47px;
+  height: 10px;
+  border-radius: 10px 10px 0 0;
+  background-color: #2e2e2f;
+  margin-bottom: -4px;
+}
+
+.camera-top-rect2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.camera-top-rect2-l {
+  width: 8px;
+  height: 8px;
+  line-height: 16px;
+  display: block;
+  text-align: center;
+  background-image: radial-gradient(32px at 0px 0px, transparent 8px, #2e2e2f 8px);
+}
+
+.camera-top-rect2-c {
+  width: 47px;
+  height: 8px;
+  background-color: #2e2e2f;
+}
+
+.camera-top-rect2-r {
+  width: 8px;
+  height: 8px;
+  line-height: 16px;
+  display: block;
+  text-align: center;
+  background-image: radial-gradient(32px at 8px 0px, transparent 8px, #2e2e2f 8px);
+}
+
+.camera-body {
+  width: 132px;
+  height: 82px;
+  border-radius: 8px;
+  background-color: #2e2e2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.camera-lens {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 4px solid #c1c1c5;
+}
+
+.camera-light {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #f7ce45;
+  position: absolute;
+  top: 9px;
+  right: 29px;
+}
+
+.camera-shutter {
+  width: 13px;
+  height: 6px;
+  border-radius: 2px;
+  position: absolute;
+  top: -9px;
+  left: 14px;
+  background-color: #2e2e2f;
+}

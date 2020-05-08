@@ -1,0 +1,69 @@
+.remind-container {
+  background-color: white;
+}
+
+.remind {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 30px 20px 30px 18px;
+}
+
+.remind-li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.remind-li .li-out-circle {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 3px solid;
+  border-radius: 50%;
+  margin-right: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remind-li .li-inner-circle {
+  width: 18px;
+  height: 18px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background-color: #3478f6;
+}
+
+.remind-li:nth-child(1),
+.remind-li:nth-child(2) {
+  margin-bottom: 15px;
+}
+
+.remind-li:nth-child(1) .li-out-circle {
+  border-color: #3478f6;
+}
+.remind-li:nth-child(1) .li-inner-circle {
+  background-color: #3478f6;
+}
+
+.remind-li:nth-child(2) .li-out-circle {
+  border-color: #eb4d3d;
+}
+.remind-li:nth-child(2) .li-inner-circle {
+  background-color: #eb4d3d;
+}
+
+.remind-li:nth-child(3) .li-out-circle {
+  border-color: #f09a37;
+}
+.remind-li:nth-child(3) .li-inner-circle {
+  background-color: #f09a37;
+}
+
+.remind-li .li-line {
+  width: 93px;
+  height: 3px;
+  background-color: #c7c7cb;
+}

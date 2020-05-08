@@ -1,0 +1,13 @@
+.mail-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #376eea, #5dc5f6);
+}
+
+.mail-container .mail {
+  width: 128px;
+  height: 82px;
+  border-radius: 10px;
+  background-color: white;
+}

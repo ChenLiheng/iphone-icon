@@ -1,0 +1,17 @@
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.week {
+  font-size: 28px;
+  margin-top: 21px;
+  color: #eb5545;
+}
+.day {
+  font-size: 86px;
+  margin-top: -5px;
+  color: #000000;
+}

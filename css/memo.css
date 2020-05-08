@@ -1,0 +1,33 @@
+.memo-container {
+  background-color: white;
+}
+
+.memo-top {
+  height: 45px;
+  width: 100%;
+  border-radius: 36px 36px 0 0;
+  background: linear-gradient(to bottom, #fae074, #f7cf46);
+}
+
+.line-gradient {
+  height: 7px;
+  background: linear-gradient(to bottom, #aaa, rgba(0, 0, 0, 0));
+}
+
+.line-dot {
+  border-bottom: 5px dotted #c7c7cb;
+}
+
+.line-solid {
+  height: 3px;
+  width: 100%;
+  background-color: #c7c7cb;
+}
+
+.line-solid:nth-last-child(1) {
+  margin-top: 42px;
+}
+
+.line-solid:nth-last-child(2) {
+  margin-top: 32px;
+}

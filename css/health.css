@@ -1,0 +1,33 @@
+.health-container {
+  background: white;
+  position: relative;
+}
+
+.health-container .heart {
+  position: relative;
+  width: 84px;
+  height: 74px;
+  position: absolute;
+  top: 30px;
+  right: 28px;
+}
+
+.health-container .heart:before,
+.health-container .heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: linear-gradient(to bottom, #f093c2, #ea402d);
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+
+.health-container .heart:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
