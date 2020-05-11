@@ -27,3 +27,5 @@ functions/*
 
 .firebase
 .eslintcache
+
+/.cache
