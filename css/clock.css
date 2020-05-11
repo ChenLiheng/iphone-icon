@@ -1,0 +1,127 @@
+.clock-container {
+  background: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  background-color: #f5f6f7;
+  position: relative;
+}
+
+.clock-num {
+  position: absolute;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.clock-num-1 {
+  top: 15px;
+  right: 38px;
+}
+.clock-num-2 {
+  top: 38px;
+  right: 15px;
+}
+.clock-num-3 {
+  top: 67px;
+  right: 6px;
+}
+.clock-num-4 {
+  bottom: 38px;
+  right: 15px;
+}
+.clock-num-5 {
+  bottom: 15px;
+  right: 38px;
+}
+.clock-num-6 {
+  bottom: 6px;
+  left: 76px;
+}
+.clock-num-7 {
+  bottom: 15px;
+  left: 42px;
+}
+.clock-num-8 {
+  bottom: 38px;
+  left: 15px;
+}
+.clock-num-9 {
+  top: 67px;
+  left: 6px;
+}
+.clock-num-10 {
+  top: 38px;
+  left: 15px;
+}
+.clock-num-11 {
+  top: 15px;
+  left: 38px;
+}
+.clock-num-12 {
+  top: 6px;
+  left: 70px;
+}
+
+.clock-center-bottom {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #202020;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+
+.clock-hour {
+  width: 42px;
+  height: 6px;
+  border-radius:0 3px 3px 0;
+  position: absolute;
+  background-color: #202020;
+  top:75px;
+  right: 33px;
+}
+
+.clock-minute {
+  height: 67px;
+  width: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  background-color: #202020;
+  top: 15px;
+  right: 65px;
+  transform: rotate(20deg);
+}
+
+.clock-second {
+  position: absolute;
+  background-color: #ef8632;
+  width: 3px;
+  height: 88px;
+  border-radius: 1.5px;
+  transform: rotate(45deg);
+  bottom: 16px;
+  left: 58px;
+}
+
+.clock-center-top {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #ef8632;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
