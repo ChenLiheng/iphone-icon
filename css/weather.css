@@ -1,0 +1,50 @@
+.weather-container {
+  background: linear-gradient(to bottom, #376de9, #5dc5f6);
+  position: relative;
+}
+
+.sun {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  left: 26px;
+  background: linear-gradient(to bottom, #f6c844, #ebe04d);
+}
+
+.cloud-l {
+  width: 34px;
+  height: 48px;
+  border-radius: 24px 0 0 24px;
+  background-color: rgba(230, 242, 253, 1);
+  position: absolute;
+  top: 86px;
+  left: 42px;
+  opacity: 0.9;
+}
+
+.cloud-c {
+  width: 58px;
+  height: 29px;
+  border-radius: 29px 29px 0 0;
+  background-color: rgba(230, 242, 253, 1);
+  position: absolute;
+  top: 56px;
+  left: 58px;
+  transform: rotate(-10deg);
+  background-blend-mode: overlay;
+  opacity: 0.9;
+}
+
+.cloud-r {
+  width: 80px;
+  height: 58px;
+  border-radius: 0 29px 29px 0;
+  background-color: rgba(230, 242, 253, 1);
+  position: absolute;
+  top: 76px;
+  right: 24px;
+  background-blend-mode: overlay;
+  opacity: 0.9;
+}

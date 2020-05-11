@@ -1,0 +1,25 @@
+.message-container {
+  background: linear-gradient(to bottom, #8af586, #55b942);
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.msg-oval {
+  width: 132px;
+  height: 110px;
+  border-radius: 66px / 55px;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.msg-arrow {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: -18px;
+  transform: rotate(-10deg);
+  box-shadow: 26px 0px 0 0 white;
+}

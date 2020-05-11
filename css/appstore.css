@@ -1,0 +1,68 @@
+.app-store-container {
+  background: linear-gradient(to bottom, #5dc5f6, #376eea);
+  position: relative;
+}
+
+.store-line-1 {
+  width: 16px;
+  height: 84px;
+  border-radius: 8px 8px 0 0;
+  background-color: white;
+  position: absolute;
+  top: 32px;
+  left: 78px;
+  transform: rotate(32deg);
+}
+
+.store-line-2 {
+  width: 16px;
+  height: 24px;
+  border-radius: 10px 0px 8px 8px;
+  background-color: white;
+  position: absolute;
+  bottom: 34px;
+  transform: rotate(32deg);
+  left: 41px;
+}
+
+.store-line-3 {
+  width: 16px;
+  height: 38px;
+  border-radius: 8px 8px 0 0;
+  background-color: white;
+  position: absolute;
+  top: 36px;
+  left: 74px;
+  transform: rotate(-32deg);
+}
+
+.store-line-4 {
+  width: 16px;
+  height: 80px;
+  border-radius: 16px 0px 8px 8px;
+  background-color: white;
+  position: absolute;
+  top: 70px;
+  left: 109px;
+  transform: rotate(-32deg);
+}
+
+.store-line-5 {
+  width: 82px;
+  height: 16px;
+  border-radius: 8px 16px 0px 8px;
+  background-color: white;
+  position: absolute;
+  bottom: 58px;
+  left: 26px;
+}
+
+.store-line-6 {
+  width: 30px;
+  height: 16px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: white;
+  position: absolute;
+  bottom: 58px;
+  right: 26px;
+}
