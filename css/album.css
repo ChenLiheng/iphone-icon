@@ -1,0 +1,58 @@
+.album-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 12px;
+}
+
+.album-container span {
+  position: absolute;
+  width: 48px;
+  height: 73px;
+  border-radius: 50% / 30%;
+  background-color: var(--c);
+  transform-origin: center 105%;
+  transform: rotate(calc((var(--n) - 1) * 45deg));
+  mix-blend-mode: multiply;
+}
+
+.album-container span:nth-child(1) {
+  --n: 1;
+  --c: rgba(243, 156, 18, 0.7);
+}
+
+.album-container span:nth-child(2) {
+  --n: 2;
+  --c: rgba(241, 196, 15, 0.7);
+}
+
+.album-container span:nth-child(3) {
+  --n: 3;
+  --c: rgba(46, 204, 113, 0.7);
+}
+
+.album-container span:nth-child(4) {
+  --n: 4;
+  --c: rgba(27, 188, 155, 0.7);
+}
+
+.album-container span:nth-child(5) {
+  --n: 5;
+  --c: rgba(65, 131, 215, 0.7);
+}
+
+.album-container span:nth-child(6) {
+  --n: 6;
+  --c: rgba(102, 51, 153, 0.7);
+}
+
+.album-container span:nth-child(7) {
+  --n: 7;
+  --c: rgba(155, 89, 182, 0.7);
+}
+
+.album-container span:nth-child(8) {
+  --n: 8;
+  --c: rgba(242, 38, 19, 0.7);
+}
