@@ -1,0 +1,152 @@
+.voice-memo {
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.voice-memo span {
+  display: flex;
+  width: 4px;
+  height: var(--h);
+  background-color: var(--c);
+  border-radius: 2px;
+  position: relative;
+  margin-left: 3px;
+}
+
+.voice-memo span:nth-child(1) {
+  --h: 4px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(2) {
+  --h: 8px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(3) {
+  --h: 6px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(4) {
+  --h: 16px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(5) {
+  --h: 44px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(6) {
+  --h: 34px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(7) {
+  --h: 68px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(8) {
+  --h: 118px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(9) {
+  --h: 96px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(10) {
+  --h: 60px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(11) {
+  --h: 24px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(12) {
+  --h: 36px;
+  --c: #eb4d3d;
+}
+
+.voice-memo span:nth-child(13) {
+  --h: 122px;
+  --c: #51aaf2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+}
+
+.voice-memo span:nth-child(13)::after,
+.voice-memo span:nth-child(13)::before {
+  content: ' ';
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #51aaf2;
+  position: absolute;
+}
+
+.voice-memo span:nth-child(13)::before {
+  top: -11px;
+}
+
+.voice-memo span:nth-child(13)::after {
+  bottom: -11px;
+}
+
+.voice-memo span:nth-child(14) {
+  --h: 40px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(15) {
+  --h: 18px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(16) {
+  --h: 22px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(17) {
+  --h: 26px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(18) {
+  --h: 16px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(19) {
+  --h: 8px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(20) {
+  --h: 10px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(21) {
+  --h: 6px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(22) {
+  --h: 8px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(23) {
+  --h: 6px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(24) {
+  --h: 6px;
+  --c: #ffffff;
+}
+.voice-memo span:nth-child(25) {
+  --h: 4px;
+  --c: #ffffff;
+}

@@ -1,0 +1,309 @@
+.compass {
+  background-color: #1a1a1a;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scale-container {
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.scale-container span {
+  position: absolute;
+  width: 4px;
+  height: 80px;
+  background-color: #656566;
+  top: 0;
+  border-radius: 1px;
+  transform-origin: 50% 100%;
+  transform: rotate(calc((var(--n) - 1) * 7.5deg));
+}
+
+.scale-container span:nth-child(1) {
+  --n: 1;
+}
+
+.scale-container span:nth-child(2) {
+  --n: 2;
+}
+
+.scale-container span:nth-child(3) {
+  --n: 3;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(4) {
+  --n: 4;
+}
+
+.scale-container span:nth-child(5) {
+  --n: 5;
+}
+
+.scale-container span:nth-child(6) {
+  --n: 6;
+}
+
+.scale-container span:nth-child(7) {
+  --n: 7;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(8) {
+  --n: 8;
+}
+
+.scale-container span:nth-child(9) {
+  --n: 9;
+}
+
+.scale-container span:nth-child(10) {
+  --n: 10;
+}
+
+.scale-container span:nth-child(11) {
+  --n: 11;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(12) {
+  --n: 12;
+}
+
+.scale-container span:nth-child(13) {
+  --n: 13;
+}
+
+.scale-container span:nth-child(14) {
+  --n: 14;
+}
+
+.scale-container span:nth-child(15) {
+  --n: 15;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(16) {
+  --n: 16;
+}
+
+.scale-container span:nth-child(17) {
+  --n: 17;
+}
+
+.scale-container span:nth-child(18) {
+  --n: 18;
+}
+
+.scale-container span:nth-child(19) {
+  --n: 19;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(20) {
+  --n: 20;
+}
+
+.scale-container span:nth-child(21) {
+  --n: 21;
+}
+
+.scale-container span:nth-child(22) {
+  --n: 22;
+}
+
+.scale-container span:nth-child(23) {
+  --n: 23;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(24) {
+  --n: 24;
+}
+
+.scale-container span:nth-child(25) {
+  --n: 25;
+}
+
+.scale-container span:nth-child(26) {
+  --n: 26;
+}
+
+.scale-container span:nth-child(27) {
+  --n: 27;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(28) {
+  --n: 28;
+}
+
+.scale-container span:nth-child(29) {
+  --n: 29;
+}
+
+.scale-container span:nth-child(30) {
+  --n: 30;
+}
+
+.scale-container span:nth-child(31) {
+  --n: 31;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(32) {
+  --n: 32;
+}
+
+.scale-container span:nth-child(33) {
+  --n: 33;
+}
+
+.scale-container span:nth-child(34) {
+  --n: 34;
+}
+
+.scale-container span:nth-child(35) {
+  --n: 35;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(36) {
+  --n: 36;
+}
+
+.scale-container span:nth-child(37) {
+  --n: 37;
+}
+
+.scale-container span:nth-child(38) {
+  --n: 38;
+}
+
+.scale-container span:nth-child(39) {
+  --n: 39;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(40) {
+  --n: 40;
+}
+
+.scale-container span:nth-child(41) {
+  --n: 41;
+}
+
+.scale-container span:nth-child(42) {
+  --n: 42;
+}
+
+.scale-container span:nth-child(43) {
+  --n: 43;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(44) {
+  --n: 44;
+}
+
+.scale-container span:nth-child(45) {
+  --n: 45;
+}
+
+.scale-container span:nth-child(46) {
+  --n: 46;
+}
+
+.scale-container span:nth-child(47) {
+  --n: 47;
+  background-color: #e9e9e9;
+}
+
+.scale-container span:nth-child(48) {
+  --n: 48;
+}
+
+.compass-direction {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  background-color: #1a1a1a;
+  position: absolute;
+}
+
+.compass-direction span {
+  font-size: 18px;
+  color: #fffefe;
+  font-weight: bold;
+  position: absolute;
+}
+
+.compass-direction span:nth-child(1) {
+  top: 19px;
+  left: 19px;
+}
+
+.compass-direction span:nth-child(2) {
+  top: 19px;
+  right: 19px;
+}
+
+.compass-direction span:nth-child(3) {
+  bottom: 19px;
+  right: 19px;
+}
+
+.compass-direction span:nth-child(4) {
+  bottom: 19px;
+  left: 19px;
+}
+
+.compass-center {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #242424;
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.compass-center span {
+  background-color: #676768;
+  display: flex;
+  width: 4px;
+  height: 64px;
+  position: absolute;
+}
+
+.compass-center span:nth-child(1) {
+  transform-origin: 50% 50%;
+  transform: rotate(0deg);
+}
+
+.compass-center span:nth-child(2) {
+  transform-origin: 50% 50%;
+  transform: rotate(90deg);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-left: 16px solid #eb4d3c;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  top: 14px;
+  right: 14px;
+}
