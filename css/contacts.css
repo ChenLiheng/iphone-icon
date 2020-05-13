@@ -1,0 +1,71 @@
+.contacts {
+  background-color: #d7d6cd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.contacts-head {
+  width: 114px;
+  height: 114px;
+  border-radius: 50%;
+  border: 5px solid #a8a29b;
+  box-sizing: border-box;
+  position: absolute;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.contacts-head span:nth-child(1) {
+  background-color: #a8a29b;
+  height: 43px;
+  width: 38px;
+  border-radius: 50% / 50%;
+  margin-top: 24px;
+  display: inline-table;
+}
+
+.contacts-head span:nth-child(2) {
+  background-color: #a8a29b;
+  height: 44px;
+  width: 90px;
+  border-radius: 50% / 50%;
+  margin-top: 10px;
+}
+
+.contacts-label {
+  width: 22px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+}
+
+.contacts-label span {
+  height: 45px;
+  width: 100%;
+  background-color: var(--c);
+  box-shadow: 2px 2px 10px #989791 inset;
+}
+
+.contacts-label span:nth-child(1) {
+  --c: #c3c2bb;
+}
+
+.contacts-label span:nth-child(2) {
+  --c: #77c5f5;
+}
+
+.contacts-label span:nth-child(3) {
+  --c: #f09a37;
+}
+
+.contacts-label span:nth-child(4) {
+  --c: #76d672;
+}

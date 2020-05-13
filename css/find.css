@@ -1,0 +1,59 @@
+.find {
+  background: linear-gradient(to bottom, #dddddb, #ccccca);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.find span {
+  position: absolute;
+  background-blend-mode: multiply;
+}
+
+.find span:nth-child(1) {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #6ed474, #5db764);
+}
+
+.find span:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #80dd82;
+  box-sizing: border-box;
+  background: linear-gradient(to bottom, #76d772, #6dcb67);
+}
+
+.find span:nth-child(3) {
+  width: 156px;
+  height: 156px;
+  border-radius: 100%;
+  overflow: hidden;
+  transform: rotate(0deg);
+  position: relative;
+}
+
+.find span:nth-child(3) .slice {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  border-radius: 0;
+  transform-origin: 0% 100%;
+  transform: rotate(-25deg) skewY(-40deg);
+  background: linear-gradient(to bottom left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ,#3478f6);
+}
+
+.find span:nth-child(4) {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 7px solid #efeff4;
+  box-sizing: border-box;
+  background: #3478f6;
+}
