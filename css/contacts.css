@@ -51,7 +51,7 @@
   height: 45px;
   width: 100%;
   background-color: var(--c);
-  box-shadow: 2px 2px 10px #989791 inset;
+  box-shadow: 1px 1px 5px #989791 inset;
 }
 
 .contacts-label span:nth-child(1) {
