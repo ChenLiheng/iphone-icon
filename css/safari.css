@@ -1,0 +1,228 @@
+.safari {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.safari .scale-container {
+  width: 156px;
+  height: 156px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, #61c9f6, #396ee9);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.safari .scale-container span {
+  width: 2px;
+  height: 144px;
+  position: absolute;
+  top: 6px;
+  display: flex;
+  transform-origin: 50% 50%;
+  transform: rotate(calc((var(--n) - 1) * 5deg));
+}
+
+.safari .scale-container span::before,
+.safari .scale-container span::after {
+  content: ' ';
+  width: 2px;
+  height: 16px;
+  background-color: white;
+  position: absolute;
+}
+
+.safari .scale-container span::before {
+  top: 0;
+}
+
+.safari .scale-container span::after {
+  bottom: 0;
+}
+
+.safari .scale-container span:nth-child(odd)::before,
+.safari .scale-container span:nth-child(odd)::after {
+  height: 16px;
+}
+
+.safari .scale-container span:nth-child(even)::before,
+.safari .scale-container span:nth-child(even)::after {
+  height: 8px;
+}
+
+.safari .scale-container span:nth-child(1) {
+  --n: 1;
+}
+
+.safari .scale-container span:nth-child(2) {
+  --n: 2;
+}
+
+.safari .scale-container span:nth-child(3) {
+  --n: 3;
+}
+
+.safari .scale-container span:nth-child(4) {
+  --n: 4;
+}
+
+.safari .scale-container span:nth-child(5) {
+  --n: 5;
+}
+
+.safari .scale-container span:nth-child(6) {
+  --n: 6;
+}
+
+.safari .scale-container span:nth-child(7) {
+  --n: 7;
+}
+
+.safari .scale-container span:nth-child(8) {
+  --n: 8;
+}
+
+.safari .scale-container span:nth-child(9) {
+  --n: 9;
+}
+
+.safari .scale-container span:nth-child(10) {
+  --n: 10;
+}
+
+.safari .scale-container span:nth-child(11) {
+  --n: 11;
+}
+
+.safari .scale-container span:nth-child(12) {
+  --n: 12;
+}
+
+.safari .scale-container span:nth-child(13) {
+  --n: 13;
+}
+
+.safari .scale-container span:nth-child(14) {
+  --n: 14;
+}
+
+.safari .scale-container span:nth-child(15) {
+  --n: 15;
+}
+
+.safari .scale-container span:nth-child(16) {
+  --n: 16;
+}
+
+.safari .scale-container span:nth-child(17) {
+  --n: 17;
+}
+
+.safari .scale-container span:nth-child(18) {
+  --n: 18;
+}
+
+.safari .scale-container span:nth-child(19) {
+  --n: 19;
+}
+
+.safari .scale-container span:nth-child(20) {
+  --n: 20;
+}
+
+.safari .scale-container span:nth-child(21) {
+  --n: 21;
+}
+
+.safari .scale-container span:nth-child(22) {
+  --n: 22;
+}
+
+.safari .scale-container span:nth-child(23) {
+  --n: 23;
+}
+
+.safari .scale-container span:nth-child(24) {
+  --n: 24;
+}
+
+.safari .scale-container span:nth-child(25) {
+  --n: 25;
+}
+
+.safari .scale-container span:nth-child(26) {
+  --n: 26;
+}
+
+.safari .scale-container span:nth-child(27) {
+  --n: 27;
+}
+
+.safari .scale-container span:nth-child(28) {
+  --n: 28;
+}
+
+.safari .scale-container span:nth-child(29) {
+  --n: 29;
+}
+
+.safari .scale-container span:nth-child(30) {
+  --n: 30;
+}
+
+.safari .scale-container span:nth-child(31) {
+  --n: 31;
+}
+
+.safari .scale-container span:nth-child(32) {
+  --n: 32;
+}
+
+.safari .scale-container span:nth-child(33) {
+  --n: 33;
+}
+
+.safari .scale-container span:nth-child(34) {
+  --n: 34;
+}
+
+.safari .scale-container span:nth-child(35) {
+  --n: 35;
+}
+
+.safari .scale-container span:nth-child(36) {
+  --n: 36;
+}
+
+.safari .pointer {
+  height: 144px;
+  width: 16px;
+  position: absolute;
+  transform-origin: 50% 50%;
+  transform: rotate(50deg);
+}
+
+.safari .pointer::before {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-bottom: 72px solid #eb4d3d;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  position: absolute;
+  top: 0;
+}
+
+.safari .pointer::after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-top: 72px solid white;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+  position: absolute;
+  bottom: 0;
+}

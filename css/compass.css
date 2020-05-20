@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.scale-container {
+.compass .scale-container {
   width: 160px;
   height: 160px;
   display: flex;
@@ -16,7 +16,7 @@
   position: relative;
 }
 
-.scale-container span {
+.compass .scale-container span {
   position: absolute;
   width: 4px;
   height: 160px;
@@ -25,8 +25,8 @@
   transform: rotate(calc((var(--n) - 1) * 7.5deg));
 }
 
-.scale-container span::before,
-.scale-container span::after {
+.compass .scale-container span::before,
+.compass .scale-container span::after {
   content: '';
   width: 4px;
   height: 15px;
@@ -35,238 +35,136 @@
   background-color: #656566;
 }
 
-.scale-container span::after {
+.compass .scale-container span::after {
   position: absolute;
   bottom: 0;
 }
 
-.scale-container span:nth-child(1) {
+.compass .scale-container span:nth-child(1) {
   --n: 1;
 }
 
-.scale-container span:nth-child(2) {
+.compass .scale-container span:nth-child(2) {
   --n: 2;
 }
 
-.scale-container span:nth-child(3) {
+.compass .scale-container span:nth-child(3) {
   --n: 3;
 }
 
-.scale-container span:nth-child(3)::before,
-.scale-container span:nth-child(3)::after {
+.compass .scale-container span:nth-child(3)::before,
+.compass .scale-container span:nth-child(3)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(4) {
+.compass .scale-container span:nth-child(4) {
   --n: 4;
 }
 
-.scale-container span:nth-child(5) {
+.compass .scale-container span:nth-child(5) {
   --n: 5;
 }
 
-.scale-container span:nth-child(6) {
+.compass .scale-container span:nth-child(6) {
   --n: 6;
 }
 
-.scale-container span:nth-child(7) {
+.compass .scale-container span:nth-child(7) {
   --n: 7;
 }
 
-.scale-container span:nth-child(7)::before,
-.scale-container span:nth-child(7)::after {
+.compass .scale-container span:nth-child(7)::before,
+.compass .scale-container span:nth-child(7)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(8) {
+.compass .scale-container span:nth-child(8) {
   --n: 8;
 }
 
-.scale-container span:nth-child(9) {
+.compass .scale-container span:nth-child(9) {
   --n: 9;
 }
 
-.scale-container span:nth-child(10) {
+.compass .scale-container span:nth-child(10) {
   --n: 10;
 }
 
-.scale-container span:nth-child(11) {
+.compass .scale-container span:nth-child(11) {
   --n: 11;
 }
 
-.scale-container span:nth-child(11)::before,
-.scale-container span:nth-child(11)::after {
+.compass .scale-container span:nth-child(11)::before,
+.compass .scale-container span:nth-child(11)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(12) {
+.compass .scale-container span:nth-child(12) {
   --n: 12;
 }
 
-.scale-container span:nth-child(13) {
+.compass .scale-container span:nth-child(13) {
   --n: 13;
 }
 
-.scale-container span:nth-child(14) {
+.compass .scale-container span:nth-child(14) {
   --n: 14;
 }
 
-.scale-container span:nth-child(15) {
+.compass .scale-container span:nth-child(15) {
   --n: 15;
 }
 
-.scale-container span:nth-child(15)::before,
-.scale-container span:nth-child(15)::after {
+.compass .scale-container span:nth-child(15)::before,
+.compass .scale-container span:nth-child(15)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(16) {
+.compass .scale-container span:nth-child(16) {
   --n: 16;
 }
 
-.scale-container span:nth-child(17) {
+.compass .scale-container span:nth-child(17) {
   --n: 17;
 }
 
-.scale-container span:nth-child(18) {
+.compass .scale-container span:nth-child(18) {
   --n: 18;
 }
 
-.scale-container span:nth-child(19) {
+.compass .scale-container span:nth-child(19) {
   --n: 19;
 }
 
-.scale-container span:nth-child(19)::before,
-.scale-container span:nth-child(19)::after {
+.compass .scale-container span:nth-child(19)::before,
+.compass .scale-container span:nth-child(19)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(20) {
+.compass .scale-container span:nth-child(20) {
   --n: 20;
 }
 
-.scale-container span:nth-child(21) {
+.compass .scale-container span:nth-child(21) {
   --n: 21;
 }
 
-.scale-container span:nth-child(22) {
+.compass .scale-container span:nth-child(22) {
   --n: 22;
 }
 
-.scale-container span:nth-child(23) {
+.compass .scale-container span:nth-child(23) {
   --n: 23;
 }
 
-.scale-container span:nth-child(23)::before,
-.scale-container span:nth-child(23)::after {
+.compass .scale-container span:nth-child(23)::before,
+.compass .scale-container span:nth-child(23)::after {
   background-color: #e9e9e9;
 }
 
-.scale-container span:nth-child(24) {
+.compass .scale-container span:nth-child(24) {
   --n: 24;
 }
-
-/* .scale-container span:nth-child(25) {
-  --n: 25;
-}
-
-.scale-container span:nth-child(26) {
-  --n: 26;
-}
-
-.scale-container span:nth-child(27) {
-  --n: 27;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(28) {
-  --n: 28;
-}
-
-.scale-container span:nth-child(29) {
-  --n: 29;
-}
-
-.scale-container span:nth-child(30) {
-  --n: 30;
-}
-
-.scale-container span:nth-child(31) {
-  --n: 31;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(32) {
-  --n: 32;
-}
-
-.scale-container span:nth-child(33) {
-  --n: 33;
-}
-
-.scale-container span:nth-child(34) {
-  --n: 34;
-}
-
-.scale-container span:nth-child(35) {
-  --n: 35;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(36) {
-  --n: 36;
-}
-
-.scale-container span:nth-child(37) {
-  --n: 37;
-}
-
-.scale-container span:nth-child(38) {
-  --n: 38;
-}
-
-.scale-container span:nth-child(39) {
-  --n: 39;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(40) {
-  --n: 40;
-}
-
-.scale-container span:nth-child(41) {
-  --n: 41;
-}
-
-.scale-container span:nth-child(42) {
-  --n: 42;
-}
-
-.scale-container span:nth-child(43) {
-  --n: 43;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(44) {
-  --n: 44;
-}
-
-.scale-container span:nth-child(45) {
-  --n: 45;
-}
-
-.scale-container span:nth-child(46) {
-  --n: 46;
-}
-
-.scale-container span:nth-child(47) {
-  --n: 47;
-  background-color: #e9e9e9;
-}
-
-.scale-container span:nth-child(48) {
-  --n: 48;
-} */
 
 .compass-direction {
   width: 124px;
