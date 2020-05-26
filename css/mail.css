@@ -9,5 +9,58 @@
   width: 128px;
   height: 82px;
   border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-container .mail span {
+  background-blend-mode: multiply;
+}
+
+.mail-container .mail span:nth-child(1) {
+  width: 127px;
+  height: 127px;
+  display: block;
+  border-radius: 25px;
   background-color: white;
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: -91px;
+}
+
+.mail-container .mail span:nth-child(2) {
+  width: 127px;
+  height: 127px;
+  display: block;
+  border: 3px solid #448ced;
+  border-radius: 15px;
+  background-color: white;
+  position: absolute;
+  top: -98px;
+  transform: rotate(45deg);
+}
+
+.mail-container .mail span:nth-child(3) {
+  width: 82px;
+  height: 82px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  left: -59px;
+  top: -2px;
+  transform: rotate(45deg);
+}
+
+.mail-container .mail span:nth-child(4) {
+  width: 82px;
+  height: 82px;
+  display: block;
+  background-color: white;
+  position: absolute;
+  right: -60px;
+  top: -2px;
+  transform: rotate(-45deg);
 }
