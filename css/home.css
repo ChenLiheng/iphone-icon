@@ -1,32 +1,172 @@
 .home-container {
   background-color: white;
-}
-.home-rectangle {
-  width: 30px;
-  height: 90px;
-  overflow: hidden;
   position: relative;
 }
 
-.home-rectangle:before,
-.home-rectangle:after {
-  content: '';
-  width: 50px;
-  height: 50px;
+.home-container li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   position: absolute;
-  transform: scaleY(1.3) translate(30%, -30px) rotate(45deg);
+  left: 0;
+  right: 0;
 }
 
-.home-rectangle:before {
-  left: -7px;
-  top: 59px;
-  border-radius: 10px;
-  background-color: #41b883;
+.home-1 span:nth-child(1) {
+  position: relative;
+  background-color: #ea933c;
+  margin-top: 20px;
 }
 
-.home-rectangle:after {
-  left: 7px;
-  top: 59px;
-  border-radius: 5px;
-  background-color: #fff;
+.home-1 span:nth-child(1)::after,
+.home-1 span:nth-child(1)::before,
+.home-2 span:nth-child(1)::after,
+.home-2 span:nth-child(1)::before,
+.home-3 span:nth-child(1)::after,
+.home-3 span:nth-child(1)::before,
+.home-4 span:nth-child(1)::after,
+.home-4 span:nth-child(1)::before,
+.home-5 span:nth-child(1)::after,
+.home-5 span:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  background-color: inherit;
+}
+
+.home-1 span:nth-child(1),
+.home-1 span:nth-child(1)::after,
+.home-1 span:nth-child(1)::before {
+  width: 46px;
+  height: 46px;
+  border-top-right-radius: 5px;
+}
+
+.home-1 span:nth-child(1),
+.home-2 span:nth-child(1),
+.home-3 span:nth-child(1),
+.home-4 span:nth-child(1),
+.home-5 span:nth-child(1) {
+  transform: rotate(-40deg) skewX(10deg) scale(1, .984);
+}
+
+.home-1 span:nth-child(1):before,
+.home-2 span:nth-child(1):before,
+.home-3 span:nth-child(1):before,
+.home-4 span:nth-child(1):before,
+.home-5 span:nth-child(1):before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, .707) translate(0, -50%);
+}
+
+.home-1 span:nth-child(1):after,
+.home-2 span:nth-child(1):after,
+.home-3 span:nth-child(1):after,
+.home-4 span:nth-child(1):after,
+.home-5 span:nth-child(1):after {
+  transform: rotate(135deg) skewY(-45deg) scale(.707, 1.414) translate(50%);
+}
+
+.home-1 span:nth-child(2) {
+  width: 106px;
+  height: 68px;
+  background-color: #ea933c;
+  border-radius: 0 0 10px 10px;
+}
+
+.home-1 span:nth-child(3) {
+  width: 15px;
+  height: 25px;
+  position: absolute;
+  right: 39px;
+  top: 35px;
+  border-radius: 3px;
+  background-color: #ea933c;
+}
+
+
+.home-2 span:nth-child(1) {
+  position: relative;
+  background-color: #f3b148;
+  margin-top: 28px;
+  border-top-right-radius: 5px;
+}
+
+.home-2 span:nth-child(1),
+.home-2 span:nth-child(1)::after,
+.home-2 span:nth-child(1)::before {
+  width: 30px;
+  height: 30px;
+}
+
+.home-2 span:nth-child(2) {
+  width: 90px;
+  height: 65px;
+  background-color: #f3b148;
+  margin-top: 4px;
+  border-radius: 0 0 10px 10px;
+}
+
+.home-3 span:nth-child(1) {
+  position: relative;
+  background-color: #f5c25d;
+  margin-top: 38px;
+  border-top-right-radius: 5px;
+}
+
+.home-3 span:nth-child(1),
+.home-3 span:nth-child(1)::after,
+.home-3 span:nth-child(1)::before {
+  width: 25px;
+  height: 25px;
+}
+
+.home-3 span:nth-child(2) {
+  width: 75px;
+  height: 56px;
+  background-color: #f5c25d;
+  margin-top: 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.home-4 span:nth-child(1) {
+  position: relative;
+  background-color: #f8d576;
+  margin-top: 48px;
+  border-top-right-radius: 5px;
+}
+
+.home-4 span:nth-child(1),
+.home-4 span:nth-child(1)::after,
+.home-4 span:nth-child(1)::before {
+  width: 20px;
+  height: 20px;
+}
+
+.home-4 span:nth-child(2) {
+  width: 60px;
+  height: 46px;
+  background-color: #f8d576;
+  margin-top: 3px;
+  border-radius: 0 0 10px 10px;
+}
+
+.home-5 span:nth-child(1) {
+  position: relative;
+  background-color: #fbe88e;
+  margin-top: 58px;
+  border-top-right-radius: 5px;
+}
+
+.home-5 span:nth-child(1),
+.home-5 span:nth-child(1)::after,
+.home-5 span:nth-child(1)::before {
+  width: 15px;
+  height: 15px;
+}
+
+.home-5 span:nth-child(2) {
+  width: 45px;
+  height: 36px;
+  background-color: #fbe88e;
+  margin-top: 2px;
+  border-radius: 0 0 10px 10px;
 }
